@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "fastapi": "^0.0.8",
+    "lint": "^0.8.19",
+    "next": "^14.2.15",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.1.4",
+    "pytest": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "validator": "^13.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.11.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
