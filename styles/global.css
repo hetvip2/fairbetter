@@ -1,0 +1,28 @@
+body {
+  font-family: 'Fraunces';
+  background-color: #333333;
+  color: white;
+}
+
+h1 {
+  margin-left: 10px;
+  margin-bottom: -3px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+button, input, h1 {
+  font-family: 'Fraunces';
+}
+
+button {
+  cursor: 'pointer';
+  display: 'inline-block';
+}
+
+p {
+  font-size: 18px;
+}
